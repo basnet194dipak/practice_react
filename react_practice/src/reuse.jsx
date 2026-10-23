@@ -10,7 +10,7 @@ function Input({htmlFor, type, value, placeholder, disabled, label_info, handle_
                 <input type={type} id={htmlFor} name={htmlFor} value={value} placeholder ={placeholder}disabled={disabled} onChange={handle_info}/>
             </section>
             <section className="display">
-                <h2>{value}</h2>
+                {type !== "password" && <h2>{value}</h2>}
             </section>
         </>
     )

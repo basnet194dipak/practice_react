@@ -1,10 +1,14 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.jsx'
+import Form from './edit_submit'
+import Forms from './reuse'
+import Apps from './six'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    {/* <Forms></Forms> */}
+    {/* <Form/> */}
+    <Apps/>
   </StrictMode>,
 )
