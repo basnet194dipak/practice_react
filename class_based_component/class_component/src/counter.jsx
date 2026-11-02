@@ -27,7 +27,7 @@ class Counter extends Component
 
     reset = ()=>{
         this.setState({
-            count: this.state.count = 0
+            count: 0
         })
     }
     render()

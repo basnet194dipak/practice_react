@@ -4,11 +4,18 @@ import './index.css'
 import App from './App.jsx'
 import Profile from './profile.jsx'
 import Counter from './counter.jsx'
-
+import Student_Profile_Manager from './Student_profile.jsx'
+import { Students, Apps } from './Student.jsx'
+import Application from './student_card.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
-    <Profile></Profile>
-    <Counter></Counter>
+    {/* <Profile></Profile>
+    <Counter></Counter> */}
+
+    {/* <Student_Profile_Manager></Student_Profile_Manager> */}
+      {/* <Apps/>
+      <Students name="Rahul" age={22}></Students> */}
+      <Application></Application>
   </StrictMode>,
 )
