@@ -7,6 +7,8 @@ import Counter from './counter.jsx'
 import Student_Profile_Manager from './Student_profile.jsx'
 import { Students, Apps } from './Student.jsx'
 import Application from './student_card.jsx'
+
+import ParentStudent from './student_management_system.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
@@ -16,6 +18,7 @@ createRoot(document.getElementById('root')).render(
     {/* <Student_Profile_Manager></Student_Profile_Manager> */}
       {/* <Apps/>
       <Students name="Rahul" age={22}></Students> */}
-      <Application></Application>
+      {/* <Application></Application> */}
+      <ParentStudent/>
   </StrictMode>,
 )
