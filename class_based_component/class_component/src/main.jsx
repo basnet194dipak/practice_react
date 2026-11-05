@@ -9,6 +9,15 @@ import { Students, Apps } from './Student.jsx'
 import Application from './student_card.jsx'
 
 import ParentStudent from './student_management_system.jsx'
+
+
+import StudentDashboard from './student_dash.jsx'
+
+import Parent from './Student_score.jsx'
+
+
+import AdvancedCounter from './adv_manager.jsx'
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
@@ -19,6 +28,12 @@ createRoot(document.getElementById('root')).render(
       {/* <Apps/>
       <Students name="Rahul" age={22}></Students> */}
       {/* <Application></Application> */}
-      <ParentStudent/>
+      {/* <ParentStudent/> */}
+
+    {/* <StudentDashboard/> */}
+
+    {/* <Parent/> */}
+
+    <AdvancedCounter/>
   </StrictMode>,
 )
